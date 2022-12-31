@@ -1,0 +1,102 @@
+@import "https://static3.mos.ru/upload/share/fonts/fonts.css";
+
+.blogPost {
+  background-color: white;
+  border: 2px solid #e1e5e9;
+  border-radius: 25px;
+  padding: 15px 20px 15px 20px;
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.blogPostButton {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 30px;
+  background-color:#f0f2f5;
+
+  color:#464b51;
+}
+
+.blogPostButton:hover {
+  background-color: #ebedf0;
+}
+
+.blogPostTitle {
+  display: block;
+  width: 100%;
+  margin-bottom: 2px;
+
+  text-decoration: none;
+  font-size: 44px;
+  color: #0e0e0f;
+  font-weight: 400;
+  font-family: "PT Serif", Arial, serif;
+}
+
+.blogPostInfo {
+  margin-bottom: 10px;
+}
+
+.blogPostContent {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.blogPostInfoItem {
+  padding: 6px 8px;
+
+  box-shadow: inset 0 0 0 1px #d8c7b2;
+  border-radius: 4px;
+
+  text-decoration: none;
+  color: #5b422c;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.blogPostInfoAuthor:hover {
+  color: #c22;
+}
+
+
+.blogPostCommentsLine {
+  border: 1px solid #e1e5e9;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.blogPostCommentsTitle {
+  display: block;
+  width: 100%;
+  margin-bottom: 2px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0e0e0f;
+  font-weight: 400;
+  font-family: "PT Serif", Arial, serif;
+}
+
+.comment {
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.commentInfo {
+  margin-bottom: 2px;
+}
+
+.commentInfoItem {
+  padding: 3px 5px;
+
+  box-shadow: inset 0 0 0 1px #d8c7b2;
+  border-radius: 4px;
+
+  text-decoration: none;
+  color: #5b422c;
+  font-size: 11px;
+  font-weight: 400;
+}
+.commentContent {
+  font-size: 14px;
+}

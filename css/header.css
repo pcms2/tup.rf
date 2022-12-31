@@ -1,0 +1,74 @@
+@import "https://static3.mos.ru/upload/share/fonts/fonts.css";
+
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+body {
+  width: 1000px;
+}
+
+#head {
+	padding: 0 36px;
+	background-color: #c22;
+	height: 40px;
+}
+
+#headLeft {
+	height: 40px;
+	vertical-align: middle;
+	display: table-cell;
+	width: 50%;
+}
+
+#headLogo {
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Golos Text,Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+}
+
+#headTitle {
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 12px;
+	font-family: Golos Text,Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	color: white;
+	font-weight: 400;
+}
+
+
+#headNav {
+	padding-left: 8px;
+	background-color: #fff;
+	height: 56px;
+	list-style: none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: gray;
+}
+
+.headNavItem {
+	float: left;
+	margin-left: 28px;
+	height: 56px;
+	font-family: Golos Text,Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	line-height: 56px;
+}
+
+.headNavItem > a:hover {
+	color: #c22;
+}
+
+.headNavItem > a {
+	color: #0e0e0f;
+	text-decoration: none;
+}

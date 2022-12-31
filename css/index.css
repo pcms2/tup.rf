@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  font-family: "Golos Text", Arial, Helvetica, sans-serif;
+}
+html {
+  background-color: #d0d0d0;
+}
+
+body {
+	width: 1600px;
+	margin: 0 auto;
+	min-height: 500px;
+  background-color: #edeef0;
+}
+
+a {
+	text-decoration: none;
+	color: #c22;
+}
+a:hover {
+	text-decoration: none;
+	color: #0e0e0f;
+}
+
+#content {
+  padding: 32px;
+}
+
+#contentLeft {
+	display: inline-block;
+	height: 100%;
+  width: 120px;
+	vertical-align: top;
+}
+
+#contentRight {
+	display: inline-block;
+	height: 100%;
+  width: 240px;
+	vertical-align: top;
+}
+
+#contentCenter {
+  display: inline-block;
+  width: calc(100% - 240px - 120px - 64px);
+  padding: 0 32px;
+}
